@@ -1,0 +1,118 @@
+\documentclass[
+     12pt,                     % font size
+     a4paper,                  % paper format
+     BCOR=5mm,                % binding correction
+     DIV=12,                   % stripe size for margin calculation            %
+     openright,
+     twoside,
+     headsepline
+]{book}
+
+\usepackage{marginnote}
+\usepackage{csquotes}
+\usepackage[usenames, dvipsnames]{xcolor}
+\usepackage{fontspec}
+\usepackage{multicol}
+\usepackage{dashrule}
+\usepackage{comment}
+\usepackage[sc,compact,explicit]{titlesec}
+\usepackage{auto-pst-pdf}
+\usepackage{psvectorian}
+\usepackage{afterpage}
+\usepackage{microtype}
+\usepackage{cabin}
+\usepackage{suffix}
+\usepackage{tabulary}
+\usepackage{changepage}
+\usepackage[many]{tcolorbox}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{textcomp}
+\usepackage[papersize={8.5in,11in},lmargin=2cm,rmargin=5cm,marginparwidth=3.5cm,top=2cm,bottom=2cm,marginparsep=2em]{geometry} 
+\usepackage{layouts}
+\usepackage{etoolbox}
+\usepackage{libertineotf}
+\include{appendix}
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+    
+\begin{document}
+
+
+\pagenumbering{gobble}
+
+\begin{titlepage}
+
+    \begin{center}
+    \vspace*{\baselineskip}
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt}
+    \rule{\textwidth}{0.4pt}\\[\baselineskip]
+    {\LARGE Dr. C.F.W. Walther \\[0.3\baselineskip] as Theologian}\\[0.2\baselineskip]
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \rule{\textwidth}{1.6pt}\\[\baselineskip]
+    \scshape
+    A modern rendition of Pieper's masterful work \\
+    \rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt}
+    \\[\baselineskip]
+    Translation by: Prof. Wallace H. McLaughlin \\
+    Written by: Dr. Franz Pieper \\
+    Typeset by: J. Lucas \\
+    [\baselineskip]
+    
+    \vfill
+
+    {\footnotesize \copyright  Jack Lucas (Idees Fait) --  All rights reserved -- 2018\\ISBN 9780359219247}
+    \end{center}
+  \end{titlepage}
+  \frontmatter
+\tableofcontents
+
+  \chapter*{Typesetter's Preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+There are a few small notes for how to read this book most effectively.  I have designed it foremost for the layman reader to parse through,  which means I have removed any parenthetical insertions of Hebrew words {\footnotesize  (of which amounts to about 6 occurrences)}.  I have made slight changes to the text without removing words.  For instance on page 8 the description of the \textsc{Meditatio} contains four quotes.  In the original text ``\textit{according to Luther}'' and ``\textit{adds Walther}'' were used as connectives but I have pushed those statements to the margins because the entire quotation is easier to read that way.  \par  I have kept any changes extremely minimal like this in order to stay true to the original translation in my efforts to modernize it's format.  Other simple rules I would like to state for your benefit include:
+
+\begin{itemize}
+\item Quotations range from fancy gray boxes to simple in-line italics.  In general,  almost all quotations are Walther's.  If a quotation is not Walther's I have \textbf{bolded} the last name of the person giving the quote,  unless the text makes it easily apparent who is about to speak.  This is to {\footnotesize (hopefully)}  keep things minimal yet functional as this book is extremely quote heavy,  especially when it comes to Walther.  There are also several times where pseudo-quotes are used to show a point or set up a fictional discussion.  In general these will look: {\footnotesize like this line.}
+\item Verses citations are used quite heavily in this book and unless expressly required by the text they will either be in the footnotes or sometimes in the margins depending on context.\footnote{John 3:16}  \marginpar{\scriptsize John 3:16} {\scriptsize\textsc{John 3:16}}.  Focus is once again placed on helping you read this like a normal book as opposed to an ``\textit{academic text}''  so word-flow is given priority.
+\item I have found it most helpful as an avid reader to be able to remember something I've read by remembering the page it was from and what the page looked like.  Not everyone experiences this,  but in the interest of experimentation I have tried to make each page look unique to help you remember {\footnotesize (or mentally index)} it.  If anything else,  I at least hope it will keep things lively.
+\item As the original book is reaching 150+ years old the standard vocabulary in use at the time somewhat differs today.  In this case I have attempted to place definitions in the margins to save you the time of having to go look it up {\footnotesize (which would interrupt your focus)} and in a few cases I have placed a short description of a person or biblical concept to add to the context.
+\end{itemize}
+
+And with that you should be well on your way.  This book was generated by \LaTeX\  and will hopefully find it's way into a reprinting someday {\footnotesize (after some more work)} since it was mostly designed to look good for print.\divider
+I pray this book blesses you as much as it did me.  Enjoy! \par\hfill \textbf{J.  Lucas}
+\mainmatter
+\include{parts/part1}
+\include{parts/part2}
+\include{parts/part3}
+\include{parts/part3a}
+\include{parts/part4}
+\include{parts/part5}
+\include{parts/part6a}
+\include{parts/part6b}
+\include{parts/part7a}
+\include{parts/part7b}
+\include{parts/part8}
+\include{parts/part9}
+\include{parts/part10a}
+\include{parts/part10b}
+\include{parts/part11}
+\include{parts/part12}
+\include{parts/part13a}
+\include{parts/part13b}
+\include{parts/part14}
+\include{parts/part15}
+\include{parts/part16}
+\include{parts/part17}
+\include{parts/part18}
+\blankpage
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

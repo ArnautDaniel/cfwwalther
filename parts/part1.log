@@ -1,0 +1,401 @@
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xetex 2018.9.3)  10 SEP 2018 18:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode\input part1.tex
+(./part1.tex
+! Undefined control sequence.
+l.1 \pagenumbering
+                  {arabic}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.2 \chapter
+            {Theology}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.3 \vspace
+           {.15cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 \vspace
+           {.30cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.6 ...hed in the current volume of the “\textsc
+                                                  {Lutheraner}”.  And it i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+! Undefined control sequence.
+l.7 \vspace
+           {.10cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 \vspace
+           {1.25cm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no ” in font cmr10!
+! Undefined control sequence.
+l.14 ...ran theologians that theology is a \textit
+                                                  {habitus practicus} \margi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 ...is a \textit{habitus practicus} \marginpar
+                                                  {???? ????? Insert Hebrew}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Runaway argument?
+\divider ~
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.18 ~\par
+          
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+ 
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.21 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+l.22 \begin
+           {fancyquotes}Christian theology can be regarded in several ways, ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! You can't use `\end' in internal vertical mode.
+<recently read> \end 
+                     
+\next #1->#1
+            \@foot 
+l.22 ....\footnote{ Lehre und Wehre, 14, 8 f.}\end
+                                                  {fancyquotes}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.24 ...ctively regarded, is to Walther “\textit
+                                                  {not the sum total of cert...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.24 ... to perform certain functions.  “\textit
+                                                  {The Holy Scripture}”, s...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+Runaway argument?
+\begin {fancyquotes}although the word theology does not occur in its,\ETC.
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.25 \\\par
+           
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+l.26 ...to 2 Corinthians 3:5 he remarks:\marginpar
+                                                  {Walther refers to Hebrews...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+ \begin {fancyquotes}In this passage the Apostle, after he has exclai\ETC.
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.27 \\\par
+            Walther lays special emphasis on the fact that theology is altog...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.27 ...ion.  Theology is for him not a “\textit
+                                                  {theoretical habitude}”,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.27 ...extit{theoretical habitude}”, “\textit
+                                                  {which has knowledge itsel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.27 ...erewith rests content}” but a “\textit
+                                                  {practical habitude}”.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+[2]
+! Undefined control sequence.
+l.30 \marginpar
+               {Ambigious}“It is the latter”, he writes\footnote{l.c., p...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no ‘ in font cmr10!
+! Undefined control sequence.
+l.30 ...st when he writes, Titus 1:1-2: ‘\textit
+                                                  {Paul, a servant of God, a...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+! Undefined control sequence.
+l.30 ...eceived it in view of the faith \marginpar
+                                                  {(???? ??????)} of the ele...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.30 ...liness, and all of this in hope \marginpar
+                                                  {(?? ?????)} of eternal li...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+! Paragraph ended before \next was complete.
+<to be read again> 
+                   \par 
+l.31 
+     
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Runaway argument?
+\begin {fancyquotes}That the … purpose of theology is to lead sinfu\ETC.
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.33 ...of the Word of God.\end{fancyquotes}  \par
+                                                   Only He can deny this pur...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Runaway argument?
+\begin {fancyquotes} Not only does the discussion of philosophical qu\ETC.
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.36 ...has not yet begun.\end{fancyquotes} \\\par
+                                                    Walther says with Meisne...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.36 ... Meisner\footnote{l.c., p.76}:  “\textit
+                                                  {He who does not always re...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.36 ..., and does not in all his theory\marginpar
+                                                  {or ??????, knowledge} kee...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+! Undefined control sequence.
+l.39 ... Walther appropriates from Calov\marginpar
+                                                  {Abraham Calovius}\footnot...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no “ in font cmr10!
+! Undefined control sequence.
+l.39 ... Wehre 14, 374} the following:  “\textit
+                                                  {Toward this goal}” -- n...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ” in font cmr10!
+Runaway argument?
+\begin {fancyquotes} everything which is taught in theology is direct\ETC.
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.39 ...to the blessedness appointed for man. \par
+                                                   All which is not directed...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! You can't use `\end' in internal vertical mode.
+<recently read> \end 
+                     
+l.39 ...s not belong to theological knowledge.\end
+                                                  {fancyquotes}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Runaway argument?
+! Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.41 \\\par
+           
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+)
+! Emergency stop.
+<*> \nonstopmode\input part1.tex
+                                
+*** (job aborted, no legal \end found)
+
+Output written on part1.pdf (1 page).

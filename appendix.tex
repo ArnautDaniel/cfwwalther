@@ -1,0 +1,138 @@
+
+\makeatletter
+\patchcmd{\@addmarginpar}%
+    {\box \@marbox}%
+    {\hbox{%
+        \ifmpar@rule@rside
+        \hskip-\mparrulefactor\marginparsep\mparrule
+        \hskip\mparrulefactor\marginparsep
+        \fi
+                          \box \@marbox
+        \ifmpar@rule@lside
+        \hskip\mparrulefactor\marginparsep\mparrule
+        \fi}%
+     \global\mpar@rule@lsidefalse
+     \global\mpar@rule@rsidefalse
+    }%
+    {\typeout{*** SUCCESS ***}}{\typeout{*** FAIL ***}}
+
+\patchcmd{\@addmarginpar}%
+    {\global\setbox\@marbox\box\@currbox}%
+    {\global\setbox\@marbox\box\@currbox
+     \global\mpar@rule@lsidetrue
+     \else
+     \global\mpar@rule@rsidetrue
+    }%
+    {\typeout{*** SUCCESS ***}}{\typeout{*** FAIL ***}}
+
+\newif\ifmpar@rule@lside
+\newif\ifmpar@rule@rside
+\makeatother
+
+\usepackage{color}
+
+% \marginparrule generates the \vrule but should use no space horizontally
+% using color is just for fun ...
+\newcommand\mparrule{\textcolor{orange}
+    {\hskip-2pt\vrule width 4pt\hskip-2pt}}
+
+% placement factor: .5 places the rule midway in the space made available 
+% by \marginparsep
+\newcommand\mparrulefactor{.4}
+
+\def\divider{\par
+  \vskip 1em
+  \centerline{\hbox to 0.5\hsize{\hrulefill}}
+  \vskip 1em
+}
+
+\usepackage{tikz}
+\usetikzlibrary{backgrounds}
+\makeatletter
+
+\tikzset{%
+  fancy quotes/.style={
+    text width=\fq@width pt,
+    align=justify,
+    inner sep=1em,
+    anchor=north west,
+    minimum width=\linewidth,
+  },
+  fancy quotes width/.initial={.8\linewidth},
+  fancy quotes marks/.style={
+    scale=8,
+    text=white,
+    inner sep=0pt,
+  },
+  fancy quotes opening/.style={
+    fancy quotes marks,
+  },
+  fancy quotes closing/.style={
+    fancy quotes marks,
+  },
+  fancy quotes background/.style={
+    show background rectangle,
+    inner frame xsep=0pt,
+    background rectangle/.style={
+      fill=gray!25,
+      rounded corners,
+    },
+  }
+}
+
+\newtcolorbox{fancyquotes}{%
+    enhanced jigsaw, 
+    breakable,      % allow page breaks
+    frame hidden,   % hide the default frame
+    top=.5cm,
+    left=1.25cm,       % left margin
+    right=1.25cm,      % right margin
+    overlay  unbroken={%
+        \node [scale=6,
+            text=black,
+            inner sep=0pt,] at ([xshift=.75cm,yshift=-1.35cm]frame.north west){``}; 
+        \node [scale=6,
+            text=black,
+            inner sep=0pt,] at ([xshift=-.8cm,yshift=.2cm]frame.south east){''};  
+    },
+    % if you wish to have the look different for page-broken boxes, adjust the following
+    overlay first={%
+    \node [scale=6,
+            text=black,
+            inner sep=0pt,] at ([xshift=.75cm,yshift=-1.35cm]frame.north west){``}; 
+    },
+    overlay middle={},
+    overlay last={%
+        \node [scale=6,
+            text=black,
+            inner sep=0pt,] at ([xshift=-.8cm,yshift=.2cm]frame.south east){''};  
+    },
+    % paragraph skips obeyed within tcolorbox
+    parbox=false,
+}
+
+
+
+\let\clipbox\relax % PSTricks (used by PSVectorian) already defines a \clipbox, so we need this workaround
+\usepackage{adjustbox} % Adjustbox to rescale the ornaments (scalebox breaks titlesec for some reason...)
+
+\newcommand{\otherfancydraw}{% Defining a command to shorten things
+\begin{adjustbox}{max height=0.9\baselineskip}% Rescaling to have height of 0.5\baselineskip
+  \raisebox{-0.25\baselineskip}{
+  \rotatebox[origin=c]{0}{% And rotating 90 degrees
+                             \includegraphics{lutherose.png}% Ornament n° 26 (http://melusine.eu.org/syracuse/pstricks/vectorian/psvectorian.pdf)
+  }}%
+\end{adjustbox}%
+}
+
+% A command to create a rule centered vertically on the text (from: https://tex.stackexchange.com/questions/15119/draw-horizontal-line-left-and-right-of-some-text-a-single-line/15122#15122)
+\newcommand*\ruleline[1]{\par\noindent\raisebox{.8ex}{\makebox[\linewidth]{\hrulefill\hspace{1ex}\raisebox{-.8ex}{#1}\hspace{1ex}\hrulefill}}}
+
+\titleformat% Formatting the header
+  {\chapter} % command
+  [block] % shape - Only managed to get it working with block
+  {\normalfont\bfseries\sc\huge} % format - Change here as needed
+  {\centering Chapter \thechapter\\} % The Chapter N° label
+  {0pt} % sep
+    {\centering \ruleline{\otherfancydraw}\\ % The horizontal rule
+  \centering #1} % And the actual title

@@ -1,0 +1,26 @@
+\contentsline {chapter}{Preface}{iii}
+\contentsline {chapter}{\numberline {1}Theology}{1}
+\contentsline {chapter}{\numberline {2}How to be a Theologian}{7}
+\contentsline {chapter}{\numberline {3}Inspiration \& Open Questions}{13}
+\contentsline {chapter}{\numberline {4}Inspiration \& Open Questions II}{19}
+\contentsline {chapter}{\numberline {5}Lutheran Dogmaticians}{27}
+\contentsline {chapter}{\numberline {6}``Scientific'' (Modern) Theology}{33}
+\contentsline {chapter}{\numberline {7}The Church I}{43}
+\contentsline {chapter}{\numberline {8}The Church II}{51}
+\contentsline {chapter}{\numberline {9}The Ministry}{61}
+\contentsline {chapter}{\numberline {10}The Ministry II}{71}
+\contentsline {chapter}{\numberline {11}Church Government}{81}
+\contentsline {chapter}{\numberline {12}Church and State}{87}
+\contentsline {chapter}{\numberline {13}Justification -- General}{95}
+\contentsline {chapter}{\numberline {14}Justification -- Universal}{101}
+\contentsline {section}{\numberline {14.1}Redemption through Christ}{102}
+\contentsline {chapter}{\numberline {15}Justification -- Means of Grace}{111}
+\contentsline {chapter}{\numberline {16}Justification -- Faith}{121}
+\contentsline {chapter}{\numberline {17}Conversion and Election}{127}
+\contentsline {chapter}{\numberline {18}Conversion -- A Mystery}{133}
+\contentsline {chapter}{\numberline {19}Conversion}{139}
+\contentsline {chapter}{\numberline {20}Election of Grace}{149}
+\contentsline {chapter}{\numberline {21}Election and Faith}{159}
+\contentsline {chapter}{\numberline {22}Election -- Wide or Narrow}{165}
+\contentsline {section}{\numberline {22.1}A Letter of Note}{172}
+\contentsline {chapter}{\numberline {23}Election -- Assurance of Faith}{175}
